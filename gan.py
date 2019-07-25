@@ -22,7 +22,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description=desc)
     parser.add_argument("-b", type=int, default=64, help="batch size")
     parser.add_argument("-z", type=int, default=64, help="dimension")
-    parser.add_argument("-e", type=int, default=10, help="epoch")
+    parser.add_argument("-e", type=int, default=100, help="epoch")
     parser.add_argument("-r", default="result", help="result directory")
     parser.add_argument("--save_model", action="store_true", help="save models")
 
