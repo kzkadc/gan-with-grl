@@ -11,7 +11,7 @@ $ pip install chainer opencv-python
 ```
 
 
-## Training GAN
+## Training of GAN
 ```bash
 $ python gan.py [options]
 ```
