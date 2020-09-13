@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from gan import get_generator
+from train_gan import get_generator
 import cv2
 from pathlib import Path
 import pprint

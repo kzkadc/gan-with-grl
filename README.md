@@ -1,19 +1,27 @@
 # GAN with Gradient Reversal Layer
-Implemented with Chainer
+Implemented with Chainer and PyTorch.
 
 Ganin, Yaroslav, et al. "Domain-adversarial training of neural networks." The Journal of Machine Learning Research 17.1 (2016): 2096-2030.
 
-## Requirements
-Chainer, OpenCV
+## Requirements (Chainer)
+Chainer, OpenCV, NumPy
 
 ```bash
-$ pip install chainer opencv-python
+$ pip install chainer opencv-python numpy
 ```
 
+## Requirements (PyTorch)
+PyTorch, Ignite, OpenCV, NumPy
+
+PyTorch: see the [official document](https://pytorch.org/get-started/locally/).
+
+```bash
+$ pip install pytorch-ignite opencv-python numpy
+```
 
 ## Training of GAN
 ```bash
-$ python gan.py [options]
+$ python train_gan.py [options]
 ```
 
 ## Image generation from trained generator
